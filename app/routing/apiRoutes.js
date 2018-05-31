@@ -51,7 +51,7 @@ module.exports = function(app) {
           friends.push(clientData);
           //res.json(true);
           res.json(bestMatched);
-      });
+      }); 
 }
 
 
